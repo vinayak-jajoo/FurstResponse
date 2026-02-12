@@ -1,0 +1,7 @@
+Week 1: Project Initialization and Basic Landing Page Setup
+
+- Created base project structure
+- Added index.html with semantic layout
+- Linked external CSS and JavaScript
+- Implemented basic styling
+- Initialized JavaScript file
