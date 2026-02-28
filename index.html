@@ -33,8 +33,24 @@
     <!-- DIAGNOSIS (Placeholder only) -->
     <section id="diagnosis">
       <div class="container">
-        <h2>Quick Diagnosis</h2>
-        <p>Feature coming soon...</p>
+        <h2>Quick Symptom Diagnosis</h2>
+
+        <div class="chatbot-container">
+          <div class="chat-header">
+            <h3>Canine Health Assistant</h3>
+          </div>
+
+          <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+              Hello! Describe your dog's symptoms.
+            </div>
+          </div>
+
+          <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Enter symptoms..." />
+            <button id="sendBtn">Send</button>
+          </div>
+        </div>
       </div>
     </section>
 
