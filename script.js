@@ -21,3 +21,19 @@ document.getElementById("sendBtn").addEventListener("click", function () {
   input.value = "";
   chatBox.scrollTop = chatBox.scrollHeight;
 });
+const adviceList = [
+  "Ensure your dog gets regular exercise.",
+  "Provide fresh water at all times.",
+  "Maintain proper vaccination schedule.",
+  "Brush your dog's teeth regularly.",
+  "Give balanced and nutritious food.",
+];
+
+const adviceBtn = document.getElementById("newAdviceBtn");
+
+if (adviceBtn) {
+  adviceBtn.addEventListener("click", function () {
+    const random = Math.floor(Math.random() * adviceList.length);
+    document.getElementById("adviceText").textContent = adviceList[random];
+  });
+}

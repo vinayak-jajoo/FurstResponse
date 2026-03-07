@@ -90,3 +90,13 @@ footer {
 .chat-input button {
   padding: 8px;
 }
+.advice-box {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#adviceText {
+  margin-bottom: 10px;
+}
