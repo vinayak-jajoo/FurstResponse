@@ -34,7 +34,7 @@
     </section>
 
     <script>
-      const map = L.map("map").setView([26.9124, 75.7873], 10);
+      const map = L.map("map").setView([26.9124, 75.7873], 11);
 
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution: "© OpenStreetMap",
@@ -43,10 +43,13 @@
       const vets = [
         { name: "City Vet Clinic", lat: 26.9124, lng: 75.7873 },
         { name: "Pet Care Hospital", lat: 26.92, lng: 75.8 },
+        { name: "Animal Care Center", lat: 26.91, lng: 75.78 },
       ];
 
       vets.forEach((vet) => {
-        L.marker([vet.lat, vet.lng]).addTo(map).bindPopup(vet.name);
+        L.marker([vet.lat, vet.lng])
+          .addTo(map)
+          .bindPopup(`<b>${vet.name}</b><br>Open for consultation`);
       });
     </script>
   </body>
