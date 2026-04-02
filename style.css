@@ -1,20 +1,50 @@
+/* Basic Reset */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5ebe0;
+  text-align: center;
 }
 
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
 header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
 }
 
-main {
-    padding: 40px;
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  padding: 60px 20px;
+  background-color: #e63946;
+  color: white;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
 }
 
 footer {
-    background-color: #f4f4f4;
-    padding: 10px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
 }
