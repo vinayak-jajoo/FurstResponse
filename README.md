@@ -161,4 +161,4 @@ Vinayak Jajoo - 23FE10CSE00834
 
 ## License
 
-This project is developed for academic and demonstration purposes.
+This project is developed for academic and demonstration purposes under the guidance of professors at MUJ
